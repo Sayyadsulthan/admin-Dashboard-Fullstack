@@ -24,7 +24,6 @@ import {
   ReceiptLongOutlined,
   PublicOutlined,
   PointOfSaleOutlined,
-  CalenderOutlined,
   AdminPanelSettingsOutlined,
   TrendingUpOutlined,
   PieChartOutlined,
@@ -204,8 +203,8 @@ const Sidebar = ({
           </Box>
 
           {/* PROFILE IMAGE */}
-          <Box position="absolute" bottom="2rem ">
-            <Divider />
+          <Divider />
+          <Box bottom="2rem " m="1.5rem 2rem 2rem 3rem">
             <FlexBetween
               textTransform="none"
               gap="1rem"
